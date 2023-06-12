@@ -1,6 +1,5 @@
 import React, { useState, Dispatch, SetStateAction } from "react";
 import Filter from "../src/compoment/filter/Filter";
-import drivers from "./data/drivers";
 import { Year, searchBy } from "./const/const";
 
 interface Formula1SearchProps {
