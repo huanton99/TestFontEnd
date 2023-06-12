@@ -1,0 +1,41 @@
+.filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .filter-container input[type="text"],
+  .filter-container select {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .filter-container input[type="text"] {
+    width: 200px;
+    height: 22px;
+  }
+  
+  .filter-container select {
+    width: 200px;
+    height: 35px;
+  }
+  
+  .filter-container select option {
+    padding: 5px;
+  }
+  
+  .filter-container input[type="text"]:focus,
+  .filter-container select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .filter-container input[type="text"]::placeholder {
+    color: #ccc;
+  }
