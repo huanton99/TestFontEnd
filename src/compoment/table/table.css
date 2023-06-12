@@ -1,0 +1,39 @@
+.table-container {
+    width: 100%;
+    border-bottom: 100px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  @media (max-width: 768px) {
+    .table-container th,
+    .table-container td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
